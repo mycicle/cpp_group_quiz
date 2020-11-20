@@ -16,8 +16,7 @@ class button : public RenderableTag {
             this->render();
           }
         void render() {
-            // do whatever you want to do to render it on screen here
-            std::cout<< "<button type=" << value << ""
+            std::cout<< "<button type='" << value << "button'>" << "Click Here!" << "</button>" << std::endl;
         }   
         
 };
